@@ -4,7 +4,6 @@ target/
 
 # IDE
 .idea/
-.vscode/
 *.swp
 *.swo
 
@@ -13,8 +12,6 @@ target/
 Thumbs.db
 
 # Environment
-.env
-.env.local
 *.secret
 
 # Logs
@@ -40,6 +37,8 @@ coverage/
 # Node (if using scripts)
 node_modules/
 package-lock.json
+!website/package-lock.json
 
 # Soroban
 .soroban/
+config.bat
