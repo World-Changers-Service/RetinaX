@@ -1,0 +1,18 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "chore/website-package-json",
+    "main",
+    "origin"
+  ],
+  "parent": {
+    "chore/website-package-json": "main",
+    "main": null,
+    "origin": "main"
+  },
+  "order": [
+    "main",
+    "chore/website-package-json",
+    "origin"
+  ]
+}
